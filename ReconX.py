@@ -21,6 +21,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+clear()
+
 ###############################################################################
 # Logging
 ###############################################################################
@@ -42,12 +46,13 @@ BOLD = '\033[1m'
 def print_banner():
     banner = (
         f"{BOLD}{RED}"
-        "   _____ __                __  ____  ___________\n"
-        "  / ___// /___  __  ______/ /_/ __ \\/ ____/ ___/\n"
-        "  \\__ \\/ / __ \\/ / / / __  / / /_/ / __/  \\__ \\\n"
-        " ___/ / / /_/ / /_/ / /_/ / / ____/ /___ ___/ /\n"
-        "/____/_/\\____/\\__,_/\\__,_/_/_/   /_____//____/ \n"
-        f"       Advanced Bug Bounty Crawler By: github.com/zebbern\n"
+        "██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗██╗  ██╗\n"
+        "██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║╚██╗██╔╝\n"
+        "██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║ ╚███╔╝ \n"
+        "██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║ ██╔██╗\n"
+        "██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║██╔╝ ██╗\n"
+        "╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝\n"
+        f"Domain Crawler By: github.com/zebbern\n"
         f"{RESET}"
     )
     print(banner)
