@@ -1,5 +1,21 @@
 # ReconX
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
+> [!Note]
+> **If you have Python 3.12+ go to [Python 3.12+ Pip Fix](#python-312-pip-fix)**
+
 ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to gather OSINT data and identify potential vulnerabilities using customizable text-based patterns. It leverages a breadth-first search (BFS) strategy with multithreading for fast and efficient crawling.
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Showcase](#showcase)
+- [Python 3.12+ Pip Fix](#python-312-pip-fix)
 
 ---
 
@@ -57,7 +73,7 @@ ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to g
     #Example:
     python crawler.py -u https://example.com -ws -t 10 
     
-Explanation:
+**Explanation:**
 - `-u https://example.com`: Specifies the base URL to crawl.
 - `-ws`: Enables screenshots of fetched pages.
 - `-t 10`: Uses 10 concurrent threads for faster crawling.
@@ -74,6 +90,11 @@ Upon completion, the tool generates two JSON files:
 If screenshots are enabled (`-ws`), they will be saved in the directory specified by `config.yaml -> output_path: ""` (default: `webshots`).
 
 ---
+
+## Showcase
+
+> [!Note]
+> soon
 
 
 <hr>
