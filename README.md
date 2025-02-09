@@ -1,7 +1,7 @@
 # ReconX
 Osint Crawler for website to gather critical information
 
-Updating information and adding updated tool tommorow.
+Updating readme today for how to use!
 
 <hr>
 
