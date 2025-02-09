@@ -45,7 +45,7 @@ ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to g
      - `sensitive_data.txt`
      - `exposed_files.txt`
      - `js_vulnerabilities.txt`
-   - Add your wordlists in `/wordlists` folder.
+   - customise info in the .txt found in `/wordlists` folder.
   
 
 ## Usage
@@ -79,8 +79,7 @@ ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to g
 - `-t 10`: Uses 10 concurrent threads for faster crawling.
 ---
 
-Output
-------
+### Output
 
 Upon completion, the tool generates two JSON files:
 
@@ -94,7 +93,7 @@ If screenshots are enabled (`-ws`), they will be saved in the directory specifie
 ## Showcase
 
 > [!Note]
-> soon
+> Coming soon....
 
 
 <hr>
