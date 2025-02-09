@@ -1,11 +1,12 @@
+> [!Note]
+> Updating readme today for how to use!
+
 # ReconX
 Osint Crawler for website to gather critical information
 
-Updating readme today for how to use!
-
 <hr>
 
-# Python 3.12+ Pip Fix:
+## Python 3.12+ Pip Fix:
 ### Create and Activate a Virtual Environment
 #### For Linux/macOS:
 ```
