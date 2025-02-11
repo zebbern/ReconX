@@ -91,9 +91,9 @@ If screenshots are enabled (`-ws`), they will be saved in the directory specifie
 ---
 
 ## Showcase
+`Command Used`: python ReconX.py -u https://monolittenil.no | Use +ws if you want to include pictures of each site its crawled can also edit `config.yaml` to crawl deeper.
 
-> [!Note]
-> Coming soon....
+<img width="60%" src="https://github.com/user-attachments/assets/b929cf1c-6d77-443f-b8c6-5c7abdd66168">
 
 
 <hr>
