@@ -65,9 +65,6 @@ ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to g
 - `-ws`  
   **Description:** Enable screenshot capture for the crawled pages.
 
-- `--wordlists`  
-  **Description:** Directory containing the pattern `.txt` files (default: `wordlists`).
-
 **For all options on you can run**
 
     #Example:
@@ -91,7 +88,7 @@ If screenshots are enabled (`-ws`), they will be saved in the directory specifie
 ---
 
 ## Showcase
-`Command Used`: python ReconX.py -u https://monolittenil.no | Use +ws if you want to include pictures of each site its crawled can also edit `config.yaml` to crawl deeper.
+`Command Used`: python ReconX.py -u https://monolittenil.no | Use `-ws` if you want to include pictures of each site its crawled can also edit `config.yaml` to crawl deeper.
 
 <img width="60%" src="https://github.com/user-attachments/assets/b929cf1c-6d77-443f-b8c6-5c7abdd66168">
 
