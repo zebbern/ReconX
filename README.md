@@ -1,16 +1,18 @@
-# ReconX
+<div align="center">
+
+## ReconX
+    
+<img src="https://github.com/user-attachments/assets/b41f4195-fd20-4005-90d6-78598c5a79f8" style="width:45%;">
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-> [!Note]
-> **If you have Python 3.12+ go to [Python 3.12+ Pip Fix](#python-312-pip-fix)**
 
-ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to gather OSINT data and identify potential vulnerabilities using customizable text-based patterns. It leverages a breadth-first search (BFS) strategy with multithreading for fast and efficient crawling.
+**ReconX is tool for crawling websites to gather OSINT data and identify potential vulnerabilities using customizable text-based patterns. It leverages a breadth-first search (BFS) strategy with multithreading for fast and efficient crawling.**
 
 ---
 
-## Table of Contents
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
@@ -18,6 +20,8 @@ ReconX & Vulnerability Crawler is a Python-based tool for crawling websites to g
 - [Python 3.12+ Pip Fix](#python-312-pip-fix)
 
 ---
+
+</div>
 
 ## Features
 
