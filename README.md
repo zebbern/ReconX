@@ -1,6 +1,4 @@
 <div align="center">
-
-## ReconX
     
 <img src="https://github.com/user-attachments/assets/b41f4195-fd20-4005-90d6-78598c5a79f8" style="width:45%;">
 
