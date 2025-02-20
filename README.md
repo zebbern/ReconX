@@ -9,13 +9,11 @@
 
 **ReconX is tool for crawling websites to gather OSINT data and identify potential vulnerabilities using customizable text-based patterns. It leverages a breadth-first search (BFS) strategy with multithreading for fast and efficient crawling.**
 
----
-
-- [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Showcase](#showcase)
-- [Python 3.12+ Pip Fix](#python-312-pip-fix)
+ [Features](#features)
+ [Setup](#setup)
+ [Usage](#usage)
+ [Showcase](#showcase)
+ [Python 3.12+ Pip Fix](#python-312-pip-fix)
 
 ---
 
